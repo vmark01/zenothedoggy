@@ -46,7 +46,7 @@ const events: Event[] = [
     description: 'Csónakázás',
   },
   {
-    title: 'Szeged',
+    title: 'Kis Baktói Vendégház, Szeged',
     date: '2024-07-21',
     description: "Saját házikó",
   },

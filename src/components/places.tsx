@@ -38,9 +38,9 @@ export const favoritePlaces: Place[] = [
   },
   {
     id: 7,
-    name: "Szeged, Kis Baktói Vendégház",
-    type: "Vendéglátóhely",
-    description: "Legjobb kutyabarát szállás Szegeden.",
-    position: [46.28631386956148, 20.155505638988622],
+    name: "Balatonföldvár, Kutyafürdetőhely",
+    type: "Pihenőhely",
+    description: "Kellemes hűsölés a Balatonban.",
+    position: [46.85228497740131, 17.864002467432407],
   },
 ];
