@@ -1,4 +1,5 @@
-const base = "./";
+const base = import.meta.env.BASE_URL;
+
 
 const photos = [
   { src: `${base}photos/z1.jpg`, width: 1500, height: 2000, alt: "Kép 1" },
