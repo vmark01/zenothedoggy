@@ -1,0 +1,28 @@
+:root {
+  --primary-bg: #d6f0f8;
+  --hover-bg: #bfe8f2;
+  --active-bg: #a3dce8;
+  --primary-text: #1e3d59;
+  --accent-color: #3cbec9;
+}
+
+* {
+  font-family: 'Fuzzy Bubbles', cursive;
+}
+
+body {
+  font-family: 'Fuzzy Bubbles', cursive;
+  margin: 0;
+  padding: 0;
+}
+
+.app-container {
+  min-height: 100vh; /* Legalább a teljes képernyő magasság */
+  display: flex; /* Flexbox layout */
+  flex-direction: column; /* Függőleges irányú elrendezés */
+}
+
+
+.main-content {
+  flex: 1; /* Kitölti a rendelkezésre álló helyet */
+}

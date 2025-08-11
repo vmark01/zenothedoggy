@@ -1,0 +1,56 @@
+{
+  "home": "Startseite",
+  "timeline": "Zeitleiste",
+  "gallery": "Galerie",
+  "contact": "Kontakt",
+  "language": "Sprache",
+  "footerText": "Alle Rechte vorbehalten.",
+  "aboutMe": "Über mich",
+  "name": "Name:",
+  "breed": "Rasse:",
+  "age": "Alter:",
+  "color": "Farbe:",
+  "birthday": "Geburtstag:",
+  "hobby": "Hobby:",
+  "favoriteFood": "Lieblingsessen:",
+  "residence": "Wohnort:",
+  "favoriteActivity": "Lieblingsbeschäftigung:",
+  "nameValue": "Zénó",
+  "breedValue": "Spaniel-Mischling",
+  "ageValue": "3 Jahre alt",
+  "colorValue": "Schwarz-loh",
+  "birthdayValue": "15. April 2022",
+  "hobbyValue": "Wandern",
+  "favoriteFoodValue": "Alles, was ich von meinem Besitzer bekomme",
+  "residenceValue": "Budapest",
+  "favoriteActivityValue": "Vögel und Katzen jagen",
+  "favoritePlaces": "Meine Lieblingsorte",
+
+  "hello": "Hallo!",
+  "welcome": "Ich heiße Zénó und bin ein freundlicher und verspielter Spaniel-Mischling aus Budapest. Die meiste Zeit verbringe ich mit Spielen, Schlafen und der Suche nach leckeren Snacks.",
+  "findOut": "Erfahre mehr über mich...",
+
+  "title": "Schreib an Zénó!",
+  "email": "E-Mail:",
+  "message": "Nachricht:",
+  "submit": "Senden",
+  "sending": "Wird gesendet...",
+  "thankYou": "Vielen Dank für deine Nachricht!",
+  "nameRequired": "Bitte gib deinen Namen ein.",
+  "emailRequired": "Bitte gib eine gültige E-Mail-Adresse ein.",
+  "messageRequired": "Bitte gib eine Nachricht ein.",
+
+
+  "privacyPolicy": "Datenschutz",
+  "Copyright": "Urheberrecht",
+  "cookiePolicy": "Cookie-Richtlinie",
+
+  "privacyTitle": "Datenschutz",
+  "privacyContent": "Alle von Ihnen übermittelten personenbezogenen Daten (z. B. über das Kontaktformular) werden ausschließlich zur Kontaktaufnahme verwendet. Ihre Daten werden nicht an Dritte weitergegeben und nur so lange gespeichert, wie es erforderlich ist.",
+  
+  "copyrightTitle": "Urheberrecht",
+  "copyrightContent": "Die auf dieser Webseite enthaltenen Text- und Bildinhalte, einschließlich Fotos, Grafiken, Logos und sonstiger Materialien, sind alleiniges Eigentum des Webseitenbetreibers und urheberrechtlich geschützt. Die Vervielfältigung, Verbreitung, Änderung oder jegliche andere Nutzung der Inhalte ist ohne vorherige schriftliche Zustimmung des Eigentümers untersagt.",
+  
+  "cookiesTitle": "Cookie-Richtlinie",
+  "cookiesContent": "Diese Website verwendet ausschließlich technische Cookies, z. B. zur Speicherung der ausgewählten Sprache. Diese Cookies sammeln keine personenbezogenen Daten und erfordern keine Zustimmung."
+}

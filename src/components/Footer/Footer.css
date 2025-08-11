@@ -1,0 +1,114 @@
+.footer-container {
+  background-color: var(--primary-bg);
+  border-top: 2px solid var(--accent-color);
+}
+
+.footer {
+  color: var(--primary-text);
+  font-weight: 500;
+}
+
+.footer-logo {
+  width: 60px;
+  height: auto;
+}
+
+/* Footer főtartalom layout */
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  /*kicsi képernyőn az elemek új sorba törnek*/
+}
+
+/* Logo és copyright rész */
+.footer-brand {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  order: 1;
+}
+
+.copyright-text {
+  font-size: 0.9rem;
+  white-space: nowrap;
+  /*Megakadályozza, hogy a szöveg többsorosra törjön*/
+}
+
+/* Linkek rész */
+.footer-links {
+  display: flex;
+  gap: 1rem;
+  order: 2;
+}
+
+/* Social rész */
+.footer-social {
+  order: 3;
+}
+
+/* Footer linkek stílusa */
+.footer-link {
+  color: var(--primary-text);
+  text-decoration: none;
+  font-size: 0.9rem;
+  white-space: nowrap;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+  color: var(--accent-color);
+}
+
+/* Social ikon */
+.social-icon {
+  font-size: 1.5rem;
+  color: var(--primary-text);
+}
+
+.social-icon:hover {
+  color: var(--accent-color);
+}
+
+/* Tablet méret (768px alatt) */
+@media (max-width: 768px) {
+  .footer-content {
+    flex-direction: column;
+    text-align: center;
+    gap: 1.5rem;
+  }
+
+  .footer-brand {
+    order: 1;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .footer-links {
+    order: 2;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .footer-social {
+    order: 3;
+  }
+}
+
+/* Mobil méret (480px alatt) */
+@media (max-width: 480px) {
+  .footer-links {
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  .footer-content {
+    gap: 1rem;
+  }
+
+  .footer {
+    padding: 1.5rem 1rem;
+  }
+}
