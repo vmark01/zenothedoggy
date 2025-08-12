@@ -111,12 +111,12 @@ export default function ContactForm() {
         </div>
 
         <button type="submit" className="btn btn-primary" disabled={isSubmitting}>
-          {isSubmitting ? t("contact.sending") : t("submit")}
+          {isSubmitting ? t("sending") : t("submit")}
         </button>
 
         {isSubmitted && (
           <div className="alert alert-success mt-3" role="alert">
-            {t("contact.thankYou")}
+            {t("thankYou")}
           </div>
         )}
       </form>

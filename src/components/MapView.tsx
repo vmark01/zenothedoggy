@@ -4,6 +4,7 @@ import type { Place } from './Place';
 import 'leaflet/dist/leaflet.css';
 import './MapView.css'
 import { favoritePlaces } from './places';
+import { useTranslation } from "react-i18next";
 
 const customMustarIcon = new L.Icon({
   iconUrl: '/marker.png',
@@ -12,6 +13,7 @@ const customMustarIcon = new L.Icon({
   popupAnchor: [1, -34],
 });
 
+
 export type PlaceProps = {
   places: Place[];
 }
@@ -19,6 +21,8 @@ export type PlaceProps = {
 export default function MapView() {
   const center: [number, number] = [47.1625, 19.5033];
   const zoom = 7; 
+
+  const { t } = useTranslation();
 
   return (
     <MapContainer center={center} zoom={zoom} scrollWheelZoom={false} className="map-wrapper">
@@ -33,8 +37,8 @@ export default function MapView() {
           icon={customMustarIcon}
         >
           <Popup>
-            <strong>{place.name}</strong><br />
-            {place.description}
+            <strong>{t(place.name)}</strong><br />
+            {t(place.description)}
           </Popup>
         </Marker>
       ))}

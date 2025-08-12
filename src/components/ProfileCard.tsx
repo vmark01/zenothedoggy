@@ -48,7 +48,7 @@ export default function ProfileCard() {
                 <span className="profile-value">{t("favoriteFoodValue")}</span>
               </li>
               <li className="profile-item">
-                <span className="profile-label">{t("location")}</span>
+                <span className="profile-label">{t("residence")}</span>
                 <span className="profile-value">{t("residenceValue")}</span>
               </li>
               <li className="profile-item profile-item-last">

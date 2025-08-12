@@ -4,6 +4,7 @@
   "gallery": "Galéria",
   "contact": "Kapcsolat",
   "language": "Nyelv",
+
   "footerText": "Minden jog fenntartva.",
   "aboutMe": "Rólam",
   "name": "Név:",
@@ -21,14 +22,13 @@
   "colorValue": "Fekete-cser",
   "birthdayValue": "2022. április 15.",
   "hobbyValue": "Kirándulás",
-  "favoriteFoodValue": "Bármi, amit a gazditól kapok",
+  "favoriteFoodValue": "Bármi, amit a gazdimtól kapok",
   "residenceValue": "Budapest",
-  "favoriteActivityValue": "Madarak, macskák kergetése",
+  "favoriteActivityValue": "Madarak és macskák kergetése",
   "favoritePlaces": "Kedvenc helyeim",
-
   "hello": "Szia!",
   "welcome": "A nevem Zénó, egy barátságos és játékos spániel keverék Budapestről. A napjaim nagy részét játékokkal, alvással és finom falatok keresésével töltöm.",
-  "findOut": "Tudj meg többet rólam...",
+  "findOut": "Ismerj meg jobban…",
 
   "title": "Írj Zénónak!",
   "email": "Email:",
@@ -43,13 +43,48 @@
   "privacyPolicy": "Adatvédelem",
   "Copyright": "Szerzői jogok",
   "cookiePolicy": "Süti szabályzat",
-
   "privacyTitle": "Adatkezelés",
   "privacyContent": "Az oldalon a látogatók személyes adatainak kezelése nem történik. A kapcsolati űrlap kitöltése során megadott adatokat kizárólag az üzenet fogadásához használjuk, azokat harmadik félnek nem adjuk át.",
-
   "copyrightTitle": "Szerzői jogok",
   "copyrightContent": "Az oldalon található szöveges és képi tartalmak, beleértve a fotókat, grafikákat, logókat és egyéb anyagokat, a honlap tulajdonosának kizárólagos tulajdonát képezik, és szerzői jogi védelem alatt állnak. A tartalmak másolása, terjesztése, módosítása vagy bármilyen formában történő felhasználása a tulajdonos előzetes írásbeli engedélye nélkül tilos.",
-
   "cookiesTitle": "Süti szabályzat",
-  "cookiesContent": "Az oldal csak technikai sütiket használ, kizárólag a látogatók nyelvi beállításának megjegyzéséhez. Ezek a sütik nem gyűjtenek személyes adatokat, és nem kerülnek harmadik félhez."
+  "cookiesContent": "Az oldal nem használ semmilyen követő- vagy marketing célú sütit. A böngészőben kizárólag a felhasználó által kiválasztott nyelvi beállítást tároljuk localStorage segítségével. Ezek az adatok nem tartalmaznak személyes információkat, és nem kerülnek harmadik félhez. A nyelvi beállítás bármikor törölhető a böngésző beállításai között.",
+  
+  "places.margitszigetName": "Margitsziget kutyafuttató",
+  "places.margitszigetDesc": "Tágas, árnyékos terület.",
+  "places.farkasEroName": "Farkas-erdő",
+  "places.farkasEroDesc": "Nagy, árnyas erdő sétákhoz és szabad futkározáshoz.",
+  "places.aggtelekName": "Aggtelek",
+  "places.aggtelekDesc": "Békés, nyugodt hely hatalmas kirándulásokhoz.",
+  "places.balatonszemesName": "Balatonszemes",
+  "places.balatonszemesDesc": "A legjobb hely vízibiciklizéshez.",
+  "places.kisBaktoiName": "Kis Baktói Vendégház, Szeged",
+  "places.kisBaktoiDesc": "A legjobb kutyabarát szállás Szegeden.",
+  "places.kutyafurdetoName": "Kutyafürdetőhely, Balatonföldvár",
+  "places.kutyafurdetoDesc": "Kellemes hűsölés a Balatonban.",
+  "places.reptarName": "RepTár, Szolnok",
+  "places.reptarDesc": "Kutyabarát kiállítás.",
+  "places.arboretumName": "Arborétum, Szarvas",
+  "places.arboretumDesc": "Óriási séta természetközelben.",
+  "places.kranjskaName": "Kranjska Gora, Szlovénia",
+  "places.kranjskaDesc": "Séta a hegyekben.",
+  "places.rovinjName": "Rovinj, Horvátország",
+  "places.rovinjDesc": "Fürdés a tengerben.",
+  "places.mosonmagyarovarName": "Mosonmagyaróvár",
+  "places.mosonmagyarovarDesc": "Kellemes pihenőhely.",
+  "places.szentFerencName": "Szent Ferenc Állatotthon, Ócsa",
+  "places.szentFerencDesc": "A megmentőim.",
+  "places.DesedaName": "Deseda",
+  "places.DesedaDesc": "Ideális hely csónakázáshoz.",
+  "places.balatonboglarName": "Balatonboglár",
+  "places.balatonboglarDesc": "Szép kilátó a Balatonra.",
+  "places.tahitotfaluName": "Tahitótfalu",
+  "places.tahitotfaluDesc": "Az első sátorban töltött éjszakám.",
+  
+  "types.kutyafuttato": "Kutyafuttató",
+  "types.kirandulohely": "Kirándulóhely",
+  "types.vendeglatohely": "Vendéglátóhely",
+  "types.pihenohely": "Pihenőhely",
+  "zenokaland": "Zénó kalandjai:"
+
 }

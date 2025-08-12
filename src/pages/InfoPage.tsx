@@ -1,6 +1,7 @@
 import { useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import { useLocation } from 'react-router-dom';
+import '../components/InfoPage.css'
 
 export default function InfoPage() {
   const location = useLocation();
@@ -18,14 +19,20 @@ export default function InfoPage() {
 
   return (
     <div className="info-page container py-4">
-      <h2 id="privacy">{t('privacyTitle')}</h2>
-      <p>{t('privacyContent')}</p>
+      <section id="privacy" className="info-section">
+        <h2>{t('privacyTitle')}</h2>
+        <p>{t('privacyContent')}</p>
+      </section>
 
-      <h2 id="copyright">{t('copyrightTitle')}</h2>
-      <p>{t('copyrightContent')}</p>
+      <section id="copyright" className="info-section">
+        <h2>{t('copyrightTitle')}</h2>
+        <p>{t('copyrightContent')}</p>
+      </section>
 
-      <h2 id="cookies">{t('cookiesTitle')}</h2>
-      <p>{t('cookiesContent')}</p>
+      <section id="cookies" className="info-section">
+        <h2>{t('cookiesTitle')}</h2>
+        <p>{t('cookiesContent')}</p>
+      </section>
     </div>
   );
 }
