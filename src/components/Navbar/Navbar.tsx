@@ -29,13 +29,31 @@ export default function Navbar() {
     const changeLanguage = (lng: string): void => {
         i18n.changeLanguage(lng);
         localStorage.setItem('language', lng);
+        closeMenu();
+    };
+
+    const closeMenu = (): void => {
+        const navbarCollapse = document.getElementById('navbarNav');
+        const navbarToggler = document.querySelector('.navbar-toggler') as HTMLButtonElement;
+        
+        if (navbarCollapse && navbarCollapse.classList.contains('show')) {
+            // Bootstrap classes eltávolítása/hozzáadása
+            navbarCollapse.classList.remove('show');
+            navbarToggler.classList.add('collapsed');
+            navbarToggler.setAttribute('aria-expanded', 'false');
+        }
+    };
+
+    // Navigációs link kattintás kezelése
+    const handleNavLinkClick = (): void => {
+        closeMenu();
     };
 
     return (
         <nav className="navbar navbar-expand-lg sticky-top modern-navbar">
             <div className="container-fluid">
                 {/* Logo */}
-                <Link className="navbar-brand" to="/">
+                <Link className="navbar-brand" to="/" onClick={handleNavLinkClick}>
                     <img src="./navbar_icon3.png" alt="Logo" className="logo-img" />
                 </Link>
 
@@ -61,6 +79,7 @@ export default function Navbar() {
                                 <Link 
                                     to={item.path} 
                                     className={`nav-link ${isActive(item.path) ? 'active' : ''}`}
+                                    onClick={handleNavLinkClick}
                                 >
                                     <i className={`bi bi-${item.icon} nav-icon`}></i>
                                     <span className="nav-text">{t(item.label)}</span>

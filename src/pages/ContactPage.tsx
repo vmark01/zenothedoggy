@@ -1,5 +1,6 @@
 import { useState, useRef } from "react";
 import { useTranslation } from "react-i18next";
+import { Link } from "react-router-dom";
 
 export default function ContactForm() {
   const { t } = useTranslation();
@@ -8,6 +9,7 @@ export default function ContactForm() {
     name: "",
     email: "",
     message: "",
+    acceptTerms: false,
   });
 
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -17,7 +19,14 @@ export default function ContactForm() {
   const formRef = useRef<HTMLFormElement>(null);
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
-    setFormData({ ...formData, [e.target.name]: e.target.value });
+    const { name, value, type } = e.target;
+
+    if (type === 'checkbox') {
+      const checked = (e.target as HTMLInputElement).checked;
+      setFormData({ ...formData, [name]: checked });
+    } else {
+      setFormData({ ...formData, [name]: value });
+    }
   };
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
@@ -39,11 +48,17 @@ export default function ContactForm() {
           "Content-Type": "application/json",
           Accept: "application/json",
         },
-        body: JSON.stringify(formData),
+        body: JSON.stringify({
+          name: formData.name,
+          email: formData.email,
+          message: formData.message,
+          // A checkbox értéket is elküldjük
+          termsAccepted: formData.acceptTerms
+        }),
       });
 
       if (response.ok) {
-        setFormData({ name: "", email: "", message: "" });
+        setFormData({ name: "", email: "", message: "", acceptTerms: false });
         setIsSubmitted(true);
         setWasValidated(false);
       } else {
@@ -110,7 +125,32 @@ export default function ContactForm() {
           <div className="invalid-feedback">{t("messageRequired")}</div>
         </div>
 
-        <button type="submit" className="btn btn-primary" disabled={isSubmitting}>
+        {/* Checkbox a felhasználási feltételek elfogadásához */}
+        <div className="mb-4">
+          <div className="form-check">
+            <input
+              className="form-check-input"
+              type="checkbox"
+              id="acceptTerms"
+              name="acceptTerms"
+              required
+              checked={formData.acceptTerms}
+              onChange={handleChange}
+            />
+            <label className="form-check-label" htmlFor="acceptTerms">
+              {t("acceptTermsLabel")}{" "}
+              <Link to="/info#privacy" className="text-decoration-none">
+                {t("termsLink")}
+              </Link>
+            </label>
+            <div className="invalid-feedback">{t("termsRequired")}</div>
+          </div>
+        </div>
+
+        <button
+          type="submit"
+          className="btn btn-primary w-100"
+        >
           {isSubmitting ? t("sending") : t("submit")}
         </button>
 

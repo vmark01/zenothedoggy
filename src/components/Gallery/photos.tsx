@@ -67,6 +67,12 @@ const photos = [
   { src: `${base}photos/ze56.jpg`, width: 1500, height: 2000, alt: "Kép 63" },
   { src: `${base}photos/ze57.jpg`, width: 1500, height: 2000, alt: "Kép 64" },
   { src: `${base}photos/ze58.jpg`, width: 1500, height: 2000, alt: "Kép 65" },
+  { src: `${base}photos/ze59.jpg`, width: 1500, height: 2000, alt: "Kép 66" },
+  { src: `${base}photos/ze60.jpg`, width: 1500, height: 2000, alt: "Kép 67" },
+  { src: `${base}photos/ze61.jpg`, width: 1500, height: 2000, alt: "Kép 68" },
+  { src: `${base}photos/ze62.jpg`, width: 1500, height: 2000, alt: "Kép 69" },
+  { src: `${base}photos/ze63.jpg`, width: 1500, height: 2000, alt: "Kép 70" },
+  { src: `${base}photos/ze64.jpeg`, width: 1500, height: 2000, alt: "Kép 71" },
 ];
 
 export default photos;

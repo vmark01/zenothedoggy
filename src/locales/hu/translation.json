@@ -44,12 +44,15 @@
   "Copyright": "Szerzői jogok",
   "cookiePolicy": "Süti szabályzat",
   "privacyTitle": "Adatkezelés",
-  "privacyContent": "Az oldalon a látogatók személyes adatainak kezelése nem történik. A kapcsolati űrlap kitöltése során megadott adatokat kizárólag az üzenet fogadásához használjuk, azokat harmadik félnek nem adjuk át.",
+  "privacyContent": "Az űrlap beküldésével hozzájárulsz, hogy a megadott adatokat (név, e-mail cím, üzenet) a Formspree szolgáltatáson keresztül továbbítsuk. Az adatok kizárólag a kapcsolatfelvétel céljából kerülnek felhasználásra, harmadik félnek nem adjuk át, kivéve a Formspree technikai feldolgozását. Az adatok kezelésére a Formspree saját adatvédelmi irányelvei is vonatkoznak. Az űrlap elküldésével igazolod, hogy elolvastad és elfogadod ezeket a feltételeket.",
   "copyrightTitle": "Szerzői jogok",
   "copyrightContent": "Az oldalon található szöveges és képi tartalmak, beleértve a fotókat, grafikákat, logókat és egyéb anyagokat, a honlap tulajdonosának kizárólagos tulajdonát képezik, és szerzői jogi védelem alatt állnak. A tartalmak másolása, terjesztése, módosítása vagy bármilyen formában történő felhasználása a tulajdonos előzetes írásbeli engedélye nélkül tilos.",
   "cookiesTitle": "Süti szabályzat",
   "cookiesContent": "Az oldal nem használ semmilyen követő- vagy marketing célú sütit. A böngészőben kizárólag a felhasználó által kiválasztott nyelvi beállítást tároljuk localStorage segítségével. Ezek az adatok nem tartalmaznak személyes információkat, és nem kerülnek harmadik félhez. A nyelvi beállítás bármikor törölhető a böngésző beállításai között.",
-  
+  "acceptTermsLabel": "Elfogadom a",
+  "termsLink": "felhasználási feltételeket",
+  "termsRequired": "A folytatáshoz el kell fogadnod a felhasználási feltételeket.",
+
   "places.margitszigetName": "Margitsziget kutyafuttató",
   "places.margitszigetDesc": "Tágas, árnyékos terület.",
   "places.farkasEroName": "Farkas-erdő",

@@ -13,7 +13,6 @@
   height: auto;
 }
 
-/* Footer főtartalom layout */
 .footer-content {
   display: flex;
   justify-content: space-between;

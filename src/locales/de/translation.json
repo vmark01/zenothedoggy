@@ -44,12 +44,15 @@
   "Copyright": "Urheberrecht",
   "cookiePolicy": "Cookie-Richtlinie",
   "privacyTitle": "Datenschutz",
-  "privacyContent": "Diese Website verarbeitet keine personenbezogenen Daten der Besucher. Die im Kontaktformular angegebenen Daten werden ausschließlich zum Empfang der Nachricht verwendet und nicht an Dritte weitergegeben.",
+  "privacyContent": "Mit dem Absenden des Formulars stimmst du der Übermittlung der angegebenen Daten (Name, E-Mail-Adresse, Nachricht) über den Dienst Formspree zu. Die Daten werden ausschließlich zum Zweck der Kontaktaufnahme verwendet und nicht an Dritte weitergegeben, außer zur technischen Verarbeitung durch Formspree. Die Verarbeitung der Daten unterliegt zudem den eigenen Datenschutzrichtlinien von Formspree. Mit dem Absenden des Formulars bestätigst du, dass du diese Bedingungen gelesen und akzeptiert hast.",
   "copyrightTitle": "Urheberrecht",
   "copyrightContent": "Alle auf dieser Website enthaltenen Texte und Bilder, einschließlich Fotos, Grafiken, Logos und anderer Materialien, sind alleiniges Eigentum des Website-Betreibers und urheberrechtlich geschützt. Das Kopieren, Verteilen, Ändern oder jegliche Nutzung der Inhalte ohne vorherige schriftliche Genehmigung des Eigentümers ist verboten.",
   "cookiesTitle": "Cookie-Richtlinie",
   "cookiesContent": "Diese Website verwendet keine Tracking- oder Marketing-Cookies. Es wird lediglich die vom Benutzer gewählte Spracheinstellung mithilfe von localStorage im Browser gespeichert. Diese Daten enthalten keine persönlichen Informationen und werden nicht an Dritte weitergegeben. Die Spracheinstellung kann jederzeit in den Browsereinstellungen gelöscht werden.",
-  
+  "acceptTermsLabel": "Ich akzeptiere die",
+  "termsLink": "Nutzungsbedingungen",
+  "termsRequired": "Sie müssen die Nutzungsbedingungen akzeptieren, um fortzufahren.",
+
   "places.margitszigetName": "Margitsziget Hundewiese",
   "places.margitszigetDesc": "Geräumiger, schattiger Bereich.",
   "places.farkasEroName": "Farkas-erdő",

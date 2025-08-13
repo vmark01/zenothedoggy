@@ -22,7 +22,6 @@
   max-width: 500px;
 }
 
-/* Kártya doboz */
 .profile-card-box {
   border: 1px solid #e2e8f0;
   border-radius: 8px;
@@ -76,7 +75,7 @@
 
 /* Értékek */
 .profile-value {
-  color: #1e293b;
+  color: var(--primary-text);
   font-weight: 500;
   text-align: right;
 }
@@ -137,6 +136,5 @@
   .profile-value {
     text-align: left;
     font-weight: 400;
-    color: #374151;
   }
 }

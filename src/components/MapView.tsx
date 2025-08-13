@@ -13,7 +13,6 @@ const customMustarIcon = new L.Icon({
   popupAnchor: [1, -34],
 });
 
-
 export type PlaceProps = {
   places: Place[];
 }
@@ -37,8 +36,10 @@ export default function MapView() {
           icon={customMustarIcon}
         >
           <Popup>
-            <strong>{t(place.name)}</strong><br />
-            {t(place.description)}
+            <div className="popup-content">
+              <strong className="popup-title">{t(place.name)}</strong>
+              <p className="popup-description">{t(place.description)}</p>
+            </div>
           </Popup>
         </Marker>
       ))}
